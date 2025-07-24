@@ -207,10 +207,10 @@ main {
 }
 
 /* main section input style */
-footer{
+footer {
   margin: 10px auto;
 }
-.main-input-div{
+.main-input-div {
   background-image: url(./image/news-letter-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -219,15 +219,15 @@ footer{
   text-align: center;
   margin: 20px 0px 20px 0px;
 }
-.input-div{
-   padding-top: 100px;
+.input-div {
+  padding-top: 100px;
 }
-.input-div input{
+.input-div input {
   border: none;
   padding: 3.3px 100px 3.4px 0px;
   margin-top: 1.2px;
 }
-.input-div button{
+.input-div button {
   color: white;
   background-color: rgba(233, 90, 8, 1);
   border: 0px;
@@ -237,21 +237,20 @@ footer{
   margin-top: -1px;
   margin-left: -4px;
 }
-.main-input-div h1{
+.main-input-div h1 {
   color: white;
   margin-bottom: 10px;
- 
 }
-.input-div input::placeholder{
- text-align:start;
+.input-div input::placeholder {
+  text-align: start;
   font-size: 0.6rem;
 }
 /* footer style */
-.footer-parent-div{
+.footer-parent-div {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
-.logo-img-2{
+.logo-img-2 {
   width: 40%;
   height: 50%;
   margin-bottom: 10px;
@@ -259,25 +258,22 @@ footer{
 .footer-logo-div {
   width: 20%;
 }
-.footer-logo-div p{
-  color:rgba(0, 0, 0, 0.5) ;
-
+.footer-logo-div p {
+  color: rgba(0, 0, 0, 0.5);
 }
-.footer-parent-div ul li{
+.footer-parent-div ul li {
   list-style: none;
   margin-top: 10px;
 }
-.footer-parent-div ul li a{
+.footer-parent-div ul li a {
   text-decoration: none;
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 0.6rem;
-  
 }
-.icon-div{
+.icon-div {
   display: flex;
   gap: 10px;
 }
-
 
 /* media query start */
 
@@ -334,24 +330,34 @@ footer{
   }
 
   /* main section planet portion */
-  .main-section-flower-plant-parent-div{
+  .main-section-flower-plant-parent-div {
     display: flex;
     flex-direction: column;
   }
- .Zabo-plant-div h6 {
-  margin-top: 20px;
-} 
+  .Zabo-plant-div h6 {
+    margin-top: 20px;
+  }
 
-/* main section input div */
-.main-input-div{
-  height: 40vh;
+  /* input style */
+  .input-div input {
+    padding: 2.5px 50px 3.4px 0px;
+  }
+  .input-div {
+  padding-top: 110px;
 }
-/* footer style  */
-.footer-parent-div{
-  flex-direction: column;
-  gap: 10px;
-}
-.footer-logo-div {
-  width: 80%;
-}
+  /* main section input div */
+  .main-input-div {
+    height: 40vh;
+  }
+  /* footer style  */
+  .footer-parent-div {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-logo-div {
+    width: 80%;
+  }
+  .icon-div{
+    margin: 8px 0px;
+  }
 }
