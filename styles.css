@@ -198,6 +198,7 @@ main {
   color: white;
   text-align: center;
 }
+
 .Bloom-plant-div a,
 .Ana-plant-div a,
 .Zabo-plant-div a {
@@ -340,6 +341,7 @@ footer{
  .Zabo-plant-div h6 {
   margin-top: 20px;
 } 
+
 /* main section input div */
 .main-input-div{
   height: 40vh;
@@ -348,5 +350,8 @@ footer{
 .footer-parent-div{
   flex-direction: column;
   gap: 10px;
+}
+.footer-logo-div {
+  width: 80%;
 }
 }
