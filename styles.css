@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .container {
   max-width: 70%;
@@ -58,7 +59,7 @@ header {
 }
 .banner-information-div h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: pink;
+  background-color: rgb(238, 235, 236);
   margin-bottom: 10px;
   line-height: 40px;
   font-size: 2rem;
@@ -143,6 +144,140 @@ main {
   left: 220px;
 }
 
+/* main section latest information style */
+.main-section-information-latest-div {
+  text-align: center;
+  margin-top: 50px;
+}
+.main-section-information-latest-div h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-section-information-latest-div span {
+  color: rgba(233, 90, 8, 1);
+}
+.main-section-information-latest-div p {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  font-size: 1rem;
+}
+/* main section planet style */
+.main-section-flower-plant-parent-div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+  margin-top: 30px;
+}
+.Bloom-plant-div {
+  background-image: url(./image/deal-bloom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Ana-plant-div {
+  background-image: url(./image/deal-ana.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Zabo-plant-div {
+  background-image: url(./image/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: span 2 / span 2;
+  grid-row: span 2 / span 2;
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.Zabo-plant-div h6 {
+  margin-top: 70px;
+}
+.Bloom-plant-div,
+.Ana-plant-div,
+.Zabo-plant-div {
+  width: 100%;
+  padding: 50px 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+.Bloom-plant-div a,
+.Ana-plant-div a,
+.Zabo-plant-div a {
+  color: white;
+  font-size: small;
+}
+
+/* main section input style */
+footer{
+  margin: 10px auto;
+}
+.main-input-div{
+  background-image: url(./image/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+.input-div{
+   padding-top: 100px;
+}
+.input-div input{
+  border: none;
+  padding: 3.3px 100px 3.4px 0px;
+  margin-top: 1.2px;
+}
+.input-div button{
+  color: white;
+  background-color: rgba(233, 90, 8, 1);
+  border: 0px;
+  padding: 6px 37.3px;
+  font-size: 8px;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-left: -4px;
+}
+.main-input-div h1{
+  color: white;
+  margin-bottom: 10px;
+ 
+}
+.input-div input::placeholder{
+ text-align:start;
+  font-size: 0.6rem;
+}
+/* footer style */
+.footer-parent-div{
+  display: flex;
+  justify-content:space-between;
+}
+.logo-img-2{
+  width: 40%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+.footer-logo-div {
+  width: 20%;
+}
+.footer-logo-div p{
+  color:rgba(0, 0, 0, 0.5) ;
+
+}
+.footer-parent-div ul li{
+  list-style: none;
+  margin-top: 10px;
+}
+.footer-parent-div ul li a{
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.5);
+  font-size: 0.6rem;
+  
+}
+.icon-div{
+  display: flex;
+  gap: 10px;
+}
+
+
 /* media query start */
 
 @media screen and (max-width: 576px) {
@@ -183,17 +318,35 @@ main {
   }
 
   /* main section middle portion */
-.logo-seal{
-  display: none;
+  .logo-seal {
+    display: none;
+  }
+  .main-section-middle-parent-div {
+    flex-direction: column;
+  }
+
+  /* main section latest information portion */
+
+  .main-section-information-latest-div {
+    max-width: 80%;
+    margin: 0px auto;
+  }
+
+  /* main section planet portion */
+  .main-section-flower-plant-parent-div{
+    display: flex;
+    flex-direction: column;
+  }
+ .Zabo-plant-div h6 {
+  margin-top: 20px;
+} 
+/* main section input div */
+.main-input-div{
+  height: 40vh;
 }
-.main-section-middle-parent-div{
+/* footer style  */
+.footer-parent-div{
   flex-direction: column;
+  gap: 10px;
 }
-
-
-
-
-
-
-
 }
