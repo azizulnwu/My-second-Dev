@@ -347,6 +347,9 @@ footer {
 
   }
   .Ana-plant-div{
+    border-radius: 0px;
+  }
+  .Ana-plant-div{
     background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./image/deal-ana.png');;
   background-size: cover; /* Optional: adjust as needed */
   background-position: center;
@@ -361,8 +364,12 @@ footer {
 
   /* input style */
   .input-div input {
-    padding: 2.5px 50px 3.4px 0px;
+    padding: 10px 20px 11px 10px;
   }
+  .input-div button {
+  padding: 12.3px 37.3px;
+  font-size: 10px;
+}
   .input-div {
   padding-top: 110px;
 }
