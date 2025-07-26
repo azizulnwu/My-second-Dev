@@ -321,7 +321,10 @@ footer {
   .main-section-middle-parent-div {
     flex-direction: column;
   }
-
+  .main-section-middle-parent-div ul li {
+  margin-left:15px;
+  
+}
   /* main section latest information portion */
 
   .main-section-information-latest-div {
@@ -337,6 +340,24 @@ footer {
   .Zabo-plant-div h6 {
     margin-top: 20px;
   }
+  .Bloom-plant-div{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./image/deal-bloom.png');;
+  background-size: cover; /* Optional: adjust as needed */
+  background-position: center;
+
+  }
+  .Ana-plant-div{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./image/deal-ana.png');;
+  background-size: cover; /* Optional: adjust as needed */
+  background-position: center;
+
+  }
+  .Zabo-plant-div{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./image/deal-zabo.png');;
+  background-size: cover; /* Optional: adjust as needed */
+  background-position: center;
+}
+
 
   /* input style */
   .input-div input {
